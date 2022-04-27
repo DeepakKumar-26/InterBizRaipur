@@ -18,14 +18,34 @@
       >
         <h2 class="form-heading">Signup form</h2>
         <label for="first-name" class="label-signup">First Name</label>
-        <input name="first-name" type="text" class="input-signup" />
+        <input
+          id="first-name"
+          name="first-name"
+          type="text"
+          class="input-signup"
+        />
         <label for="last-name" class="label-signup">Last Name</label>
-        <input name="last-name" type="text" class="input-signup" />
+        <input
+          id="last-name"
+          name="last-name"
+          type="text"
+          class="input-signup"
+        />
         <label for="mobile" class="label-signup">Mobile</label>
-        <input name="mobile" type="number" class="input-signup" />
+        <input id="mobile" name="mobile" type="number" class="input-signup" />
         <label for="email" class="label-signup">Email</label>
-        <input name="email" type="email" class="input-signup" />
-
+        <input id="email" name="email" type="email" class="input-signup" />
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <label for="age">Age</label>
+        <input id="age" name="age" type="number" class="input-signup" />
+        <label for="country">Country</label>
+        <input id="country" name="country" type="text" class="input-signup" />
+        <label for="state">State</label>
+        <input id="state" name="state" type="text" class="input-signup" />
         <button class="btn-signup" type="submit">Signup</button>
 
         <h4 id="user-name">Name Will Appear here once form is submitted</h4>

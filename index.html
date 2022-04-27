@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InterBiz Assignment</title>
+
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <div class="container-signup">
+      <form
+        name="form-signup"
+        action=""
+        onsubmit="handleSignUpForm()"
+        class="form-signup"
+      >
+        <h2 class="form-heading">Signup form</h2>
+        <label for="first-name" class="label-signup">First Name</label>
+        <input name="first-name" type="text" class="input-signup" />
+        <label for="last-name" class="label-signup">Last Name</label>
+        <input name="last-name" type="text" class="input-signup" />
+        <label for="mobile" class="label-signup">Mobile</label>
+        <input name="mobile" type="number" class="input-signup" />
+        <label for="email" class="label-signup">Email</label>
+        <input name="email" type="email" class="input-signup" />
+
+        <button class="btn-signup" type="submit">Signup</button>
+
+        <h4 id="user-name">Name Will Appear here once form is submitted</h4>
+      </form>
+      <div class="img-signup"></div>
+    </div>
+
+    <script type="text/javascript" src="./src/signupHandler.js"></script>
+  </body>
+</html>

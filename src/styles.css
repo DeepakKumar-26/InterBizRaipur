@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+div.container-signup {
+  box-shadow: 0px 0px 5px grey;
+  border-radius: 5px;
+  width: 60%;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+form.form-signup {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+h2.form-heading {
+  text-align: center;
+}
+.input-signup {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.input-signup:focus {
+  outline: none;
+}
+button.btn-signup {
+  width: fit-content;
+  align-self: center;
+}
+div.img-signup {
+  width: 59%;
+  background: url("https://support.sitemanager.io/hubfs/cms%20login%20standard.jpg");
+  background-size: cover;
+  background-color: grey;
+}
+
+@media only screen and (max-width: 500px) {
+  div.container-signup {
+    width: 100%;
+  }
+  form.form-signup {
+    width: 100%;
+    background: url("https://support.sitemanager.io/hubfs/cms%20login%20standard.jpg");
+    background-size: cover;
+  }
+  div.img-signup {
+    display: none;
+  }
+}

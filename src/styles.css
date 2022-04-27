@@ -42,6 +42,7 @@ div.img-signup {
     width: 100%;
   }
   form.form-signup {
+    padding: 10px;
     width: 100%;
     background: url("https://support.sitemanager.io/hubfs/cms%20login%20standard.jpg");
     background-size: cover;
